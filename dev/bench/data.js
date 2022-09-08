@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662635592321,
+  "lastUpdate": 1662636113957,
   "repoUrl": "https://github.com/snijderlab/stitch",
   "entries": {
     "Results Benchmark": [
@@ -91,6 +91,52 @@ window.BENCHMARK_DATA = {
           {
             "name": "REC-0-1_002 - Identity",
             "value": 0,
+            "unit": "Percent"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "committer": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "distinct": true,
+          "id": "cba38facdb0de938ce9e8f5ba67825e9e3a35647",
+          "message": "Used double arithmatic in Identity",
+          "timestamp": "2022-09-08T13:20:03+02:00",
+          "tree_id": "7bbfc9cad0ade06123aa3fccb987985b67c9978a",
+          "url": "https://github.com/snijderlab/stitch/commit/cba38facdb0de938ce9e8f5ba67825e9e3a35647"
+        },
+        "date": 1662636107444,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Score",
+            "value": 2396,
+            "unit": "Score",
+            "extra": "450M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Identity",
+            "value": 0.989,
+            "unit": "Percent"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Score",
+            "value": 1103,
+            "unit": "Score",
+            "extra": "214M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Identity",
+            "value": 0.991,
             "unit": "Percent"
           }
         ]
