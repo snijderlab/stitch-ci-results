@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663168059941,
+  "lastUpdate": 1663227128303,
   "repoUrl": "https://github.com/snijderlab/stitch",
   "entries": {
     "Results Benchmark": [
@@ -228,6 +228,74 @@ window.BENCHMARK_DATA = {
           },
           {
             "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Identity",
+            "value": 0.922,
+            "unit": "Percent"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "committer": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "distinct": true,
+          "id": "fc30c8254020fc5770940649fdbf76dd02759414",
+          "message": "Made sure all benchmark results are added to the JSON",
+          "timestamp": "2022-09-15T09:29:24+02:00",
+          "tree_id": "d20f6697de9f720e618fd9c480d108f8c79ea0ae",
+          "url": "https://github.com/snijderlab/stitch/commit/fc30c8254020fc5770940649fdbf76dd02759414"
+        },
+        "date": 1663227120329,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Score",
+            "value": 2396,
+            "unit": "Score",
+            "extra": "450M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Identity",
+            "value": 0.989,
+            "unit": "Percent"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Score",
+            "value": 1103,
+            "unit": "Score",
+            "extra": "214M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Identity",
+            "value": 0.991,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Heavy Chain/REC-0-1 - Score",
+            "value": 533,
+            "unit": "Score",
+            "extra": "38M1D30M1D29M8D23M"
+          },
+          {
+            "name": "2771/Heavy Chain/REC-0-1 - Identity",
+            "value": 0.823,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Light Chain/REC-0-1_002 - Score",
+            "value": 508,
+            "unit": "Score",
+            "extra": "27M1D39M1D15M1D15M1D16M"
+          },
+          {
+            "name": "2771/Light Chain/REC-0-1_002 - Identity",
             "value": 0.922,
             "unit": "Percent"
           }
