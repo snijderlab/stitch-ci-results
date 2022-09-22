@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663227128303,
+  "lastUpdate": 1663850506111,
   "repoUrl": "https://github.com/snijderlab/stitch",
   "entries": {
     "Results Benchmark": [
@@ -253,6 +253,74 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/snijderlab/stitch/commit/fc30c8254020fc5770940649fdbf76dd02759414"
         },
         "date": 1663227120329,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Score",
+            "value": 2396,
+            "unit": "Score",
+            "extra": "450M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Identity",
+            "value": 0.989,
+            "unit": "Percent"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Score",
+            "value": 1103,
+            "unit": "Score",
+            "extra": "214M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Identity",
+            "value": 0.991,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Heavy Chain/REC-0-1 - Score",
+            "value": 533,
+            "unit": "Score",
+            "extra": "38M1D30M1D29M8D23M"
+          },
+          {
+            "name": "2771/Heavy Chain/REC-0-1 - Identity",
+            "value": 0.823,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Light Chain/REC-0-1_002 - Score",
+            "value": 508,
+            "unit": "Score",
+            "extra": "27M1D39M1D15M1D15M1D16M"
+          },
+          {
+            "name": "2771/Light Chain/REC-0-1_002 - Identity",
+            "value": 0.922,
+            "unit": "Percent"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "committer": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "distinct": true,
+          "id": "c84c9aeee2a63655d0f9bdccb092381c871e096b",
+          "message": "More expected sequences filled in",
+          "timestamp": "2022-09-22T14:39:04+02:00",
+          "tree_id": "daa20332c2717ee247c7c85e2c20d0c82f1c4c1b",
+          "url": "https://github.com/snijderlab/stitch/commit/c84c9aeee2a63655d0f9bdccb092381c871e096b"
+        },
+        "date": 1663850499187,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
