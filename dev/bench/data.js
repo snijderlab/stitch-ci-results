@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675771391659,
+  "lastUpdate": 1675781473008,
   "repoUrl": "https://github.com/snijderlab/stitch",
   "entries": {
     "Results Benchmark": [
@@ -33655,6 +33655,283 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/snijderlab/stitch/commit/9fc6b0b8d527edd082832646e0c2320769bec3c1"
         },
         "date": 1675771382964,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Score",
+            "value": 3554,
+            "unit": "Score",
+            "extra": "51M1D45M1I353M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Heavy Chain/REC-0-1 - Identity",
+            "value": 98.9,
+            "unit": "Percent"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Score",
+            "value": 1667,
+            "unit": "Score",
+            "extra": "32M1D62M1D118M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Light Chain/REC-0-1_002 - Identity",
+            "value": 98.1,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo//A - Score",
+            "value": 3007,
+            "unit": "Score",
+            "extra": "548M"
+          },
+          {
+            "name": "modelangelo//A - Identity",
+            "value": 72.1,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo//H - Score",
+            "value": 1225,
+            "unit": "Score",
+            "extra": "224M"
+          },
+          {
+            "name": "modelangelo//H - Identity",
+            "value": 71.9,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo//L - Score",
+            "value": 1416,
+            "unit": "Score",
+            "extra": "110M1D6M1D100M"
+          },
+          {
+            "name": "modelangelo//L - Identity",
+            "value": 84.4,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo_recombined/Heavy Chain/REC-0-1 - Score",
+            "value": 1145,
+            "unit": "Score",
+            "extra": "223M"
+          },
+          {
+            "name": "modelangelo_recombined/Heavy Chain/REC-0-1 - Identity",
+            "value": 68.2,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo_recombined/Light Chain/REC-0-1_002 - Score",
+            "value": 1317,
+            "unit": "Score",
+            "extra": "99M1D10M2D106M"
+          },
+          {
+            "name": "modelangelo_recombined/Light Chain/REC-0-1_002 - Identity",
+            "value": 79.4,
+            "unit": "Percent"
+          },
+          {
+            "name": "107/Heavy Chain/REC-0-1 - Score",
+            "value": 996,
+            "unit": "Score",
+            "extra": "99M1I27M"
+          },
+          {
+            "name": "107/Heavy Chain/REC-0-1 - Identity",
+            "value": 99.2,
+            "unit": "Percent"
+          },
+          {
+            "name": "107/Light Chain/REC-0-1_002 - Score",
+            "value": 864,
+            "unit": "Score",
+            "extra": "108M"
+          },
+          {
+            "name": "107/Light Chain/REC-0-1_002 - Identity",
+            "value": 99.1,
+            "unit": "Percent"
+          },
+          {
+            "name": "227/Heavy Chain/REC-0-1 - Score",
+            "value": 842,
+            "unit": "Score",
+            "extra": "54M1D42M11D18M"
+          },
+          {
+            "name": "227/Heavy Chain/REC-0-1 - Identity",
+            "value": 86.5,
+            "unit": "Percent"
+          },
+          {
+            "name": "227/Light Chain/REC-0-1_002 - Score",
+            "value": 837,
+            "unit": "Score",
+            "extra": "1S[2,2]99M1D12M"
+          },
+          {
+            "name": "227/Light Chain/REC-0-1_002 - Identity",
+            "value": 93,
+            "unit": "Percent"
+          },
+          {
+            "name": "1028/Heavy Chain/REC-0-1 - Score",
+            "value": 902,
+            "unit": "Score",
+            "extra": "98M5I9M4D13M"
+          },
+          {
+            "name": "1028/Heavy Chain/REC-0-1 - Identity",
+            "value": 91.9,
+            "unit": "Percent"
+          },
+          {
+            "name": "1028/Light Chain/REC-0-1_002 - Score",
+            "value": 795,
+            "unit": "Score",
+            "extra": "2M1D71M1I21M1D11M"
+          },
+          {
+            "name": "1028/Light Chain/REC-0-1_002 - Identity",
+            "value": 95.3,
+            "unit": "Percent"
+          },
+          {
+            "name": "2489/Heavy Chain/REC-0-1 - Score",
+            "value": 880,
+            "unit": "Score",
+            "extra": "48M1S[2,1]43M5D4M1I19M"
+          },
+          {
+            "name": "2489/Heavy Chain/REC-0-1 - Identity",
+            "value": 91.7,
+            "unit": "Percent"
+          },
+          {
+            "name": "2489/Light Chain/REC-0-1_002 - Score",
+            "value": 817,
+            "unit": "Score",
+            "extra": "96M1I11M"
+          },
+          {
+            "name": "2489/Light Chain/REC-0-1_002 - Identity",
+            "value": 96.3,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Heavy Chain/REC-0-1 - Score",
+            "value": 841,
+            "unit": "Score",
+            "extra": "38M1D30M1D34M6D20M"
+          },
+          {
+            "name": "2771/Heavy Chain/REC-0-1 - Identity",
+            "value": 84.6,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Light Chain/REC-0-1_002 - Score",
+            "value": 790,
+            "unit": "Score",
+            "extra": "2M1D26M1D39M1D16M1D14M1D16M"
+          },
+          {
+            "name": "2771/Light Chain/REC-0-1_002 - Identity",
+            "value": 90.7,
+            "unit": "Percent"
+          },
+          {
+            "name": "3576/Heavy Chain/REC-0-1 - Score",
+            "value": 921,
+            "unit": "Score",
+            "extra": "96M2I7M1I22M"
+          },
+          {
+            "name": "3576/Heavy Chain/REC-0-1 - Identity",
+            "value": 95.2,
+            "unit": "Percent"
+          },
+          {
+            "name": "3576/Light Chain/REC-0-1_002 - Score",
+            "value": 827,
+            "unit": "Score",
+            "extra": "109M"
+          },
+          {
+            "name": "3576/Light Chain/REC-0-1_002 - Identity",
+            "value": 94.5,
+            "unit": "Percent"
+          },
+          {
+            "name": "3597/Heavy Chain/REC-0-1 - Score",
+            "value": 846,
+            "unit": "Score",
+            "extra": "1S[2,2]93M12D16M"
+          },
+          {
+            "name": "3597/Heavy Chain/REC-0-1 - Identity",
+            "value": 86.2,
+            "unit": "Percent"
+          },
+          {
+            "name": "3597/Light Chain/REC-0-1_002 - Score",
+            "value": 838,
+            "unit": "Score",
+            "extra": "107M"
+          },
+          {
+            "name": "3597/Light Chain/REC-0-1_002 - Identity",
+            "value": 97.2,
+            "unit": "Percent"
+          },
+          {
+            "name": "3634/Heavy Chain/REC-0-1 - Score",
+            "value": 879,
+            "unit": "Score",
+            "extra": "100M2D20M"
+          },
+          {
+            "name": "3634/Heavy Chain/REC-0-1 - Identity",
+            "value": 91,
+            "unit": "Percent"
+          },
+          {
+            "name": "3634/Light Chain/REC-0-1_002 - Score",
+            "value": 783,
+            "unit": "Score",
+            "extra": "73M6D21M1I12M"
+          },
+          {
+            "name": "3634/Light Chain/REC-0-1_002 - Identity",
+            "value": 91.1,
+            "unit": "Percent"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "committer": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "distinct": true,
+          "id": "91481a68ee4b95afebbde8fc31da33e59ad1f735",
+          "message": "Fixed small bug",
+          "timestamp": "2023-02-07T15:17:43+01:00",
+          "tree_id": "f60eb2613d95f12e5d06df348e6edc3e7f0bd5ab",
+          "url": "https://github.com/snijderlab/stitch/commit/91481a68ee4b95afebbde8fc31da33e59ad1f735"
+        },
+        "date": 1675781465180,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
