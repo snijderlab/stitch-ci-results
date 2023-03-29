@@ -40029,24 +40029,24 @@ window.BENCHMARK_DATA = {
         "tool": "customBiggerIsBetter",
         "benches": [
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "name": "Monoclonal Herceptin/Homo sapiens Heavy Chain/REC-0-1 - Score",
             "value": 3554,
             "unit": "Score",
             "extra": "51M1D45M1I353M"
           },
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "name": "Monoclonal Herceptin/Homo sapiens Heavy Chain/REC-0-1 - Identity",
             "value": 98.9,
             "unit": "Percent"
           },
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "name": "Monoclonal Herceptin/Homo sapiens Light Chain/REC-0-1_002 - Score",
             "value": 1667,
             "unit": "Score",
             "extra": "32M1D62M1D118M"
           },
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "name": "Monoclonal Herceptin/Homo sapiens Light Chain/REC-0-1_002 - Identity",
             "value": 98.1,
             "unit": "Percent"
           },
@@ -40306,24 +40306,24 @@ window.BENCHMARK_DATA = {
         "tool": "customBiggerIsBetter",
         "benches": [
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "name": "Monoclonal Herceptin/Homo sapiens Heavy Chain/REC-0-1 - Score",
             "value": 3554,
             "unit": "Score",
             "extra": "51M1D45M1I353M"
           },
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "name": "Monoclonal Herceptin/Homo sapiens Heavy Chain/REC-0-1 - Identity",
             "value": 98.9,
             "unit": "Percent"
           },
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "name": "Monoclonal Herceptin/Homo sapiens Light Chain/REC-0-1_002 - Score",
             "value": 1667,
             "unit": "Score",
             "extra": "32M1D62M1D118M"
           },
           {
-            "name": "Monoclonal Herceptin old peaks/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "name": "Monoclonal Herceptin/Homo sapiens Light Chain/REC-0-1_002 - Identity",
             "value": 98.1,
             "unit": "Percent"
           },
