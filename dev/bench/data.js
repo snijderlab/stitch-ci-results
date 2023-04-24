@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682336193542,
+  "lastUpdate": 1682336349225,
   "repoUrl": "https://github.com/snijderlab/stitch",
   "entries": {
     "Results Benchmark": [
@@ -46905,6 +46905,283 @@ window.BENCHMARK_DATA = {
           {
             "name": "3634/Homo sapiens Light Chain/REC-0-1_002 - Identity",
             "value": 91.1,
+            "unit": "Percent"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "committer": {
+            "email": "d.schulte@uu.nl",
+            "name": "Douwe Schulte",
+            "username": "douweschulte"
+          },
+          "distinct": true,
+          "id": "94b7e25ea25f4b60f012c4dc67b00537a80453c2",
+          "message": "Fixed broken test",
+          "timestamp": "2023-04-24T12:54:33+02:00",
+          "tree_id": "a7a0dbef3a33099fffaffa80b700ba3b5d3fa279",
+          "url": "https://github.com/snijderlab/stitch/commit/94b7e25ea25f4b60f012c4dc67b00537a80453c2"
+        },
+        "date": 1682336339167,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Monoclonal Herceptin/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 3590,
+            "unit": "Score",
+            "extra": "450M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 99.1,
+            "unit": "Percent"
+          },
+          {
+            "name": "Monoclonal Herceptin/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 1707,
+            "unit": "Score",
+            "extra": "214M"
+          },
+          {
+            "name": "Monoclonal Herceptin/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 99.5,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo//A - Score",
+            "value": 2961,
+            "unit": "Score",
+            "extra": "43M1I503M"
+          },
+          {
+            "name": "modelangelo//A - Identity",
+            "value": 71.6,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo//H - Score",
+            "value": 1174,
+            "unit": "Score",
+            "extra": "41M1I19M1I164M"
+          },
+          {
+            "name": "modelangelo//H - Identity",
+            "value": 70.5,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo//L - Score",
+            "value": 1420,
+            "unit": "Score",
+            "extra": "218M"
+          },
+          {
+            "name": "modelangelo//L - Identity",
+            "value": 83.5,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo_recombined/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 798,
+            "unit": "Score",
+            "extra": "41M1I85M10I65M4D16M"
+          },
+          {
+            "name": "modelangelo_recombined/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 55.5,
+            "unit": "Percent"
+          },
+          {
+            "name": "modelangelo_recombined/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 1363,
+            "unit": "Score",
+            "extra": "118M1I100M"
+          },
+          {
+            "name": "modelangelo_recombined/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 81.2,
+            "unit": "Percent"
+          },
+          {
+            "name": "107/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 996,
+            "unit": "Score",
+            "extra": "98M1I28M"
+          },
+          {
+            "name": "107/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 99.2,
+            "unit": "Percent"
+          },
+          {
+            "name": "107/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 864,
+            "unit": "Score",
+            "extra": "108M"
+          },
+          {
+            "name": "107/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 99.1,
+            "unit": "Percent"
+          },
+          {
+            "name": "227/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 853,
+            "unit": "Score",
+            "extra": "95M14D17M"
+          },
+          {
+            "name": "227/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 86.5,
+            "unit": "Percent"
+          },
+          {
+            "name": "227/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 846,
+            "unit": "Score",
+            "extra": "1S[2,2]99M1D12M"
+          },
+          {
+            "name": "227/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 93.9,
+            "unit": "Percent"
+          },
+          {
+            "name": "1028/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 963,
+            "unit": "Score",
+            "extra": "110M1D13M"
+          },
+          {
+            "name": "1028/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 96,
+            "unit": "Percent"
+          },
+          {
+            "name": "1028/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 806,
+            "unit": "Score",
+            "extra": "2M1D71M1I33M"
+          },
+          {
+            "name": "1028/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 95.3,
+            "unit": "Percent"
+          },
+          {
+            "name": "2489/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 936,
+            "unit": "Score",
+            "extra": "48M1S[2,1]48M1I23M"
+          },
+          {
+            "name": "2489/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 95.9,
+            "unit": "Percent"
+          },
+          {
+            "name": "2489/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 817,
+            "unit": "Score",
+            "extra": "95M1I12M"
+          },
+          {
+            "name": "2489/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 96.3,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 850,
+            "unit": "Score",
+            "extra": "37M1D33M1D27M6D25M"
+          },
+          {
+            "name": "2771/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 84.6,
+            "unit": "Percent"
+          },
+          {
+            "name": "2771/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 790,
+            "unit": "Score",
+            "extra": "2M1D25M1D39M1D16M1D14M1D17M"
+          },
+          {
+            "name": "2771/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 90.7,
+            "unit": "Percent"
+          },
+          {
+            "name": "3576/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 949,
+            "unit": "Score",
+            "extra": "95M1I6M1I24M"
+          },
+          {
+            "name": "3576/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 97.6,
+            "unit": "Percent"
+          },
+          {
+            "name": "3576/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 823,
+            "unit": "Score",
+            "extra": "38M1S[2,2]70M"
+          },
+          {
+            "name": "3576/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 92.7,
+            "unit": "Percent"
+          },
+          {
+            "name": "3597/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 867,
+            "unit": "Score",
+            "extra": "95M2D3M5D18M"
+          },
+          {
+            "name": "3597/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 89.4,
+            "unit": "Percent"
+          },
+          {
+            "name": "3597/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 829,
+            "unit": "Score",
+            "extra": "107M"
+          },
+          {
+            "name": "3597/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 96.3,
+            "unit": "Percent"
+          },
+          {
+            "name": "3634/Homo sapiens Heavy Chain/REC-0-1 - Score",
+            "value": 892,
+            "unit": "Score",
+            "extra": "99M2D21M"
+          },
+          {
+            "name": "3634/Homo sapiens Heavy Chain/REC-0-1 - Identity",
+            "value": 91.8,
+            "unit": "Percent"
+          },
+          {
+            "name": "3634/Homo sapiens Light Chain/REC-0-1_002 - Score",
+            "value": 756,
+            "unit": "Score",
+            "extra": "72M6D19M1I15M"
+          },
+          {
+            "name": "3634/Homo sapiens Light Chain/REC-0-1_002 - Identity",
+            "value": 88.4,
             "unit": "Percent"
           }
         ]
